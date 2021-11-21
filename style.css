@@ -1,0 +1,42 @@
+:root { --sky: #6bc2f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+header .card { padding-top: 10em}
+.navbar { background: rgba(255,255,255, .8) }
+.navbar .nav-link { color: #252525; font-weight: bold }
+.navbar-brand { padding-top: 0 }
+
+#image1 { background: url('img/image1.jpg') center/cover }
+#image2 { background: url('img/image2.jpg') center/cover }
+#image1:hover, #image2:hover { opacity: .5}
+#image1:hover h4, #image2:hover h4 { display: block!important }
+#services .bi {
+    font-size: 3em; 
+    background: -webkit-linear-gradient( -45deg, #73c5f2, #03689f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#gallery { background: #f1f1f1 }
+#gallery img {max-width: 300px;}
+
+input {max-width: 500px;}
+textarea {max-width: 500px;}
+
+.bg-sky { background-color: var(--sky) }
+.bg-footer { background-color: #072135 }
+.text-sky { color: var(--sky) }
+.fs-1 { font-size: calc(2rem + 1.5vw)!important }
+.vh-50 { height: 50vh }
+
+#rew1 { background: url('img/rew1.png') center/cover no-repeat; width: 60px ; height: 40px; }
+#rew2 { background: url('img/rew2.png') center/cover no-repeat; width: 60px ; height: 40px; }
+#rew3 { background: url('img/rew3.png') center/cover no-repeat; width: 60px ; height: 40px; }
+#rew4 { background: url('img/rew4.png') center/cover no-repeat; width: 60px ; height: 40px; }
+#rew5 { background: url('img/rew5.png') center/cover no-repeat; width: 60px ; height: 40px; }
+
+.slider h2 { font-size: 7em; }
+.fs-8 { font-size: .75em; }
+.fs-7 { font-size: .8em; }
+#display { display: block; }
+.carousel-indicators .active { transform: scale(1.5); margin: 0 15px; }
+/*.carousel-inner>.active { transform: scale(1.2); }*/
